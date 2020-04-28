@@ -2,26 +2,38 @@
 
 A Next.js portfolio project with TypeScript and Tailwind CSS.
 
+## Requirements
+
+- **Node.js**: >=20.18.0 (LTS)
+- **Yarn**: >=1.22.0
+
 ## Getting Started
 
-First, install the dependencies:
+First, make sure you're using the correct Node version:
 
 ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+# If using nvm
+nvm use
+
+# Or install Node.js 20.18.0 or higher from https://nodejs.org/
 ```
 
-Then, run the development server:
+Install Yarn globally (if not already installed):
 
 ```bash
-npm run dev
-# or
+npm install -g yarn
+```
+
+Then, install the dependencies:
+
+```bash
+yarn install
+```
+
+Run the development server:
+
+```bash
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
