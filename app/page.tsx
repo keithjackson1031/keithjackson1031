@@ -1,17 +1,25 @@
+import Nav from '@/components/Nav';
+import Sidebar from '@/components/Sidebar';
+import EmailSidebar from '@/components/EmailSidebar';
+import Intro from '@/components/Intro';
+import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold text-center mb-8">
-          Welcome to Your Portfolio
-        </h1>
-        <p className="text-center text-lg">
-          Get started by editing{" "}
-          <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">
-            app/page.tsx
-          </code>
-        </p>
-      </div>
+    <main className="relative">
+      <Nav />
+      <Sidebar />
+      <EmailSidebar />
+      <Intro />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
     </main>
   );
 }
