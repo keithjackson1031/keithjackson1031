@@ -45,51 +45,45 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen flex items-center justify-center px-6 py-20"
+      className="min-h-screen flex items-center px-8 lg:pl-[340px] py-20"
     >
-      <div className="max-w-[1000px] w-full">
-        <div className="flex items-center mb-12">
-          <span className="text-[#64ffda] font-mono text-xl mr-4">02.</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] whitespace-nowrap">
-            Where I&apos;ve Worked
-          </h2>
-          <div className="ml-6 h-[1px] bg-[#233554] flex-1"></div>
-        </div>
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex md:flex-col overflow-x-auto md:overflow-x-visible border-b md:border-b-0 md:border-l border-[#233554]">
-            {experiences.map((exp, index) => (
-              <button
-                key={index}
-                onClick={() => setActiveTab(index)}
-                className={`px-4 py-2 md:py-4 text-left font-mono text-sm whitespace-nowrap border-b-2 md:border-b-0 md:border-l-2 transition-colors ${
-                  activeTab === index
-                    ? 'text-[#64ffda] border-[#64ffda] bg-[#64ffda]/10'
-                    : 'text-[#8892b0] border-transparent hover:text-[#64ffda] hover:bg-[#64ffda]/5'
-                }`}
-              >
-                {exp.company}
-              </button>
-            ))}
-          </div>
-          <div className="flex-1">
-            <div>
-              <h3 className="text-xl font-semibold text-[#ccd6f6] mb-1">
-                {experiences[activeTab].position}
-                <span className="text-[#64ffda]"> @ {experiences[activeTab].company}</span>
+      <div className="max-w-[700px] w-full">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] mb-12">
+          Experience
+        </h2>
+        <div className="space-y-8">
+          {experiences.map((exp, index) => (
+            <div key={index} className="relative pl-8 border-l border-[#233554]">
+              <div className="absolute left-[-6px] top-0 w-3 h-3 rounded-full bg-[#64ffda]"></div>
+              <div className="mb-2">
+                <span className="text-xs text-[#8892b0] font-mono">
+                  {exp.period}
+                </span>
+              </div>
+              <h3 className="text-lg font-semibold text-[#ccd6f6] mb-1">
+                {exp.position}
+                <span className="text-[#64ffda]"> · {exp.company}</span>
               </h3>
-              <p className="text-sm text-[#8892b0] font-mono mb-6">
-                {experiences[activeTab].period}
-              </p>
-              <ul className="space-y-3">
-                {experiences[activeTab].responsibilities.map((resp, index) => (
-                  <li key={index} className="flex items-start text-[#8892b0]">
-                    <span className="text-[#64ffda] mr-4 mt-2">▹</span>
+              <ul className="mt-4 space-y-2">
+                {exp.responsibilities.map((resp, respIndex) => (
+                  <li key={respIndex} className="flex items-start text-[#8892b0] text-sm">
+                    <span className="text-[#64ffda] mr-3 mt-1">▹</span>
                     <span>{resp}</span>
                   </li>
                 ))}
               </ul>
+              <div className="flex flex-wrap gap-2 mt-4">
+                {exp.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="px-3 py-1 text-xs font-mono text-[#8892b0] border border-[#233554] rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
