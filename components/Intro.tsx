@@ -4,7 +4,7 @@ const Intro = () => {
       id="intro"
       className="min-h-screen flex items-center justify-center px-8 pt-20 lg:pt-0 lg:pl-[340px]"
     >
-      <div className="max-w-[700px] w-full">
+      <div className="max-w-[1000px] w-full">
         <p className="text-[#64ffda] font-mono text-sm mb-4">
           Hi, my name is
         </p>
@@ -14,7 +14,7 @@ const Intro = () => {
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#8892b0] mb-6 leading-tight">
           I build scalable, human-centered full-stack applications.
         </h2>
-        <p className="text-[#8892b0] max-w-[540px] text-lg mb-12 leading-relaxed">
+        <p className="text-[#8892b0] text-lg mb-12 leading-relaxed max-w-2xl">
           I&apos;m a full-stack engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I&apos;m focused on
           building accessible, inclusive AI products for new opportunities.

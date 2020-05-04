@@ -22,11 +22,11 @@ const About = () => {
       id="about"
       className="min-h-screen flex items-center px-8 lg:pl-[340px] py-20"
     >
-      <div className="max-w-[700px] w-full">
+      <div className="max-w-[1000px] w-full">
         <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] mb-8">
           About
         </h2>
-        <div className="space-y-4 text-[#8892b0] text-base leading-relaxed">
+        <div className="space-y-4 text-[#8892b0] text-base leading-relaxed max-w-3xl">
           <p>
             Hello! My name is Romeo and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019

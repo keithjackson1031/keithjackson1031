@@ -47,7 +47,7 @@ const Projects = () => {
       id="projects"
       className="min-h-screen flex items-center px-8 lg:pl-[340px] py-20"
     >
-      <div className="max-w-[700px] w-full">
+      <div className="max-w-[1000px] w-full">
         <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] mb-12">
           Projects
         </h2>
