@@ -136,10 +136,10 @@ const LeftSidebar = () => {
       >
         <div className="flex flex-col h-full px-8 py-12">
         {/* Name */}
-        <h1 className="text-3xl font-bold text-[#ccd6f6] mb-2">Romeo Head</h1>
+        <h1 className="text-2xl font-bold text-[#ccd6f6] mb-1">Romeo Head</h1>
         
         {/* Title */}
-        <h2 className="text-lg text-[#8892b0] mb-4">Full Stack Engineer</h2>
+        <h2 className="text-base text-[#8892b0] mb-4">Full Stack Engineer</h2>
         
         {/* Tagline */}
         <p className="text-sm text-[#8892b0] mb-12 leading-relaxed">
@@ -148,21 +148,21 @@ const LeftSidebar = () => {
 
         {/* Navigation */}
         <nav className="flex-1">
-          <ul className="space-y-2">
+          <ul className="space-y-1">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a
                   href={item.href}
                   onClick={() => setActiveSection(item.id)}
-                  className={`flex items-center text-sm uppercase tracking-wider transition-colors ${
+                  className={`flex items-center text-xs uppercase tracking-widest font-mono transition-colors ${
                     activeSection === item.id
                       ? 'text-[#64ffda]'
                       : 'text-[#8892b0] hover:text-[#64ffda]'
                   }`}
                 >
                   <span
-                    className={`mr-4 ${
-                      activeSection === item.id ? 'w-12' : 'w-8'
+                    className={`mr-3 ${
+                      activeSection === item.id ? 'w-8' : 'w-6'
                     } h-[1px] bg-[#64ffda] transition-all`}
                   ></span>
                   {item.name}

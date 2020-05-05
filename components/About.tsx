@@ -20,13 +20,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center px-8 lg:pl-[340px] py-20"
+      className="min-h-screen flex items-start px-8 lg:pl-[340px] pt-20 pb-20"
     >
-      <div className="max-w-[1000px] w-full">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] mb-8">
-          About
-        </h2>
-        <div className="space-y-4 text-[#8892b0] text-base leading-relaxed max-w-3xl">
+      <div className="max-w-[700px] w-full">
+        <div className="space-y-5 text-[#8892b0] text-[15px] leading-[1.7]">
           <p>
             Hello! My name is Romeo and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
@@ -41,10 +38,10 @@ const About = () => {
             opportunity.
           </p>
           <p>Here are a few technologies I&apos;ve been working with recently:</p>
-          <ul className="grid grid-cols-2 gap-2 mt-4 list-none">
+          <ul className="grid grid-cols-2 gap-1 mt-4 list-none pl-0">
             {technologies.map((tech, index) => (
-              <li key={index} className="flex items-start">
-                <span className="text-[#64ffda] mr-2 mt-1">▹</span>
+              <li key={index} className="flex items-start relative pl-5">
+                <span className="text-[#64ffda] absolute left-0">▹</span>
                 <span>{tech}</span>
               </li>
             ))}

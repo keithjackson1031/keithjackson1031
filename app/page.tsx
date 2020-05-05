@@ -1,5 +1,4 @@
 import LeftSidebar from '@/components/LeftSidebar';
-import Intro from '@/components/Intro';
 import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
@@ -10,7 +9,6 @@ export default function Home() {
     <main className="relative min-h-screen">
       <LeftSidebar />
       <div className="lg:ml-[300px]">
-        <Intro />
         <About />
         <Experience />
         <Projects />
