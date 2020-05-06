@@ -20,10 +20,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-start px-8 lg:pl-[340px] pt-20 pb-20"
+      className="min-h-screen flex items-start px-8 lg:pl-[100px] pt-20 pb-20"
     >
-      <div className="max-w-[700px] w-full">
-        <div className="space-y-5 text-[#8892b0] text-[15px] leading-[1.7]">
+      <div className="max-w-[700px] w-full pt-8">
+        <div className="space-y-8 text-[#8892b0] text-[18px] leading-[2]">
           <p>
             Hello! My name is Romeo and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019

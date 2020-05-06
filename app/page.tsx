@@ -6,7 +6,7 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen">
+    <main className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
       <LeftSidebar />
       <div className="lg:ml-[300px]">
         <About />
