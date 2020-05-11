@@ -1,26 +1,14 @@
 const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="min-h-screen flex items-start px-8 lg:pl-[340px] pt-20 pb-20"
-    >
-      <div className="max-w-[700px] w-full">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#ccd6f6] mb-6">
-          Get In Touch
-        </h2>
-        <p className="text-[#8892b0] text-[15px] mb-8 leading-[1.7]">
-          I&apos;m currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I&apos;ll try my best
-          to get back to you!
-        </p>
-        <a
-          href="mailto:jakecass769@gmail.com"
-          className="text-[#64ffda] border border-[#64ffda] px-6 py-3 rounded font-mono text-sm hover:bg-[#64ffda]/10 transition-all inline-block"
-        >
-          Say Hello
+    <footer className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 px-20 lg:px-[200px] pt-1 pb-20">
+      <p>Loosely designed in
+        <a href="https://www.figma.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Figma (opens in a new tab)"> Figma
         </a>
-      </div>
-    </section>
+        <a href="https://code.visualstudio.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Visual Studio Code (opens in a new tab)"> Visual Studio Code
+        </a> by yours truly. Built width
+        <a href="https://nextjs.org/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Next.js (opens in a new tab)"> Next.js </a>
+        and
+        <a href="https://tailwindcss.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Tailwind CSS (opens in a new tab)"> Tailwind CSS</a>, deployed with <a href="https://netlify.com/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Vercel (opens in a new tab)">Netlify</a>. All text is set in the<a href="https://rsms.me/inter/" className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Inter (opens in a new tab)"> Inter</a> typeface.</p></footer>
   );
 };
 
