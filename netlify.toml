@@ -1,5 +1,7 @@
 [build]
   command = "yarn build"
+  # Must differ from the site base directory; `.` in the UI triggers the plugin error.
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
