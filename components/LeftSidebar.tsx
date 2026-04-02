@@ -96,7 +96,18 @@ const LeftSidebar = () => {
             <h1 className="text-xl font-bold tracking-tight text-slate-200 sm:text-5xl">Romeo Head</h1>
 
             {/* Title */}
-            <h2 className="mt-10 text-xl font-medium tracking-tight text-slate-200 sm:text-xl">Full Stack Engineer</h2>
+            <h2 className="mt-10 flex items-center gap-3 text-xl font-medium tracking-tight text-slate-200 sm:text-xl">
+              <span className="shrink-0 text-[#64ffda]" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="h-7 w-7 sm:h-8 sm:w-8" fill="none">
+                  <g stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="10,9 6,16 10,23"/>
+                    <line x1="14" y1="24" x2="18" y2="8"/>
+                    <polyline points="22,9 26,16 22,23"/>
+                  </g>
+                </svg>
+              </span>
+              Full Stack Engineer
+            </h2>
 
             {/* Tagline */}
             <p className="mt-4 text-lg max-w-xs leading-normal">
