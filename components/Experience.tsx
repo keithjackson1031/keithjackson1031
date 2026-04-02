@@ -7,41 +7,22 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: 'Hyly.AI',
+      company: 'PrimeiTek',
       position: 'Senior Full Stack Engineer',
-      period: '07/2024 — 11/2025',
+      period: '07/2021 — Present',
       responsibilities: [
-        'Developed drag and drop customer Email marketing playground platform using React.js and Material UI.',
-        'Fixed issues on the marketing platform and services.',
-        'Cooperated with PM and other teammates to enhance service and products.',
+        'Developed a drag-and-drop email marketing platform for customers using React.js and Material UI, enabling users to design campaigns with a visual interface.',
+        'Diagnosed and fixed platform bugs across marketing services, ensuring improved stability, performance, and user experience.',
+        'Collaborated closely with Product Managers and team members to enhance product features and deliver seamless service updates.',
+        'Maintained and resolved issues on the Galaxy website utilizing Web3.js and ethers.js, ensuring blockchain interactions remained reliable.',
+        'Designed and developed the Space ID domain registration website from scratch, allowing users to register domains on the BNB Smart Chain network.',
+        'Integrated front-end with blockchain systems using Web3, including smart contract development, testing on testnets, and deployment to mainnet.',
+        'Built and optimized the main company website using Next.js, improving performance, SEO, and responsiveness across devices.',
+        'Contributed to web interfaces for user wallet management, improving functionality and user experience.',
+        'Fixed issues and maintained the staking website, ensuring secure and uninterrupted staking operations for users.'
       ],
-      technologies: ['React.js', 'Material UI', 'JavaScript'],
-      url: 'https://www.hyly.ai'
-    },
-    {
-      company: 'Space ID',
-      position: 'Senior Web3 Full Stack Blockchain Engineer',
-      period: '10/2022 — 07/2024',
-      responsibilities: [
-        'Fixed and maintained galaxy website using web3 and ethers.js,',
-        'Developed from scratch space id domain website so that user can register domain on bnb network,',
-        'Integrate with blockchain system using web3.',
-        'Developed smart contract code and test it in testnet and publish it to mainnet.',
-      ],
-      technologies: ['Web3', 'Ethers.js', 'Smart Contract', 'BNB Network'],
-      url: 'https://www.space.id/'
-    },
-    {
-      company: 'Hi',
-      position: 'Web3 & Frontend Engineer',
-      period: 'Nov 2021 — Oct 2022',
-      responsibilities: [
-        'Developed main website using next.js and optimized website,',
-        "Took part in web user website development for user's wallet,",
-        'Fix issues and maintained staking website.',
-      ],
-      technologies: ['Next.js', 'Web3', 'React'],
-      url: 'https://www.hi.com'
+      technologies: ['React.js', 'Material UI', 'Vue.js', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Git', 'Docker'],
+      url: 'https://primeitek.com/'
     },
   ];
 
