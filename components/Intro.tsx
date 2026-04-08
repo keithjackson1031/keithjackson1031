@@ -9,7 +9,7 @@ const Intro = () => {
           Hi, my name is
         </p>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#ccd6f6] mb-4 leading-tight">
-          Romeo Head.
+          Keith Jackson.
         </h1>
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#8892b0] mb-6 leading-tight">
           I build scalable, human-centered full-stack applications.
