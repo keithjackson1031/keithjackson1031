@@ -8,8 +8,8 @@ const Experience = () => {
   const experiences = [
     {
       company: 'PrimeiTek',
-      position: 'Senior Full Stack Engineer',
-      period: '07/2021 — Present',
+      position: 'Full Stack Web & AI Engineer',
+      period: '07/2015 — Present',
       responsibilities: [
         'Developed a drag-and-drop email marketing platform for customers using React.js and Material UI, enabling users to design campaigns with a visual interface.',
         'Diagnosed and fixed platform bugs across marketing services, ensuring improved stability, performance, and user experience.',
