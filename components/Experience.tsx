@@ -7,10 +7,10 @@ const Experience = () => {
       position: 'Senior Full Stack Engineer',
       period: '02/2020 — Present',
       responsibilities: [
-        'Developed a drag-and-drop email marketing platform for customers using React.js and Material UI, enabling users to design campaigns with a visual interface.',
-        'Diagnosed and fixed platform bugs across marketing services, ensuring improved stability, performance, and user experience.',
-        'Collaborated closely with Product Managers and team members to enhance product features and deliver seamless service updates.',
-        'Contributed to the design and development of scalable full stack solutions that supported business growth and improved operational efficiency.'
+        'Built and maintained scalable full stack web applications using modern frontend and backend technologies to support business needs.',
+        'Implemented new product features and improved existing systems, helping deliver reliable services and better user experiences.',
+        'Diagnosed and resolved production issues across web platforms, improving application stability, performance, and maintainability.',
+        'Worked closely with cross-functional teams to deliver efficient technical solutions and continuous product improvements.'
       ],
       technologies: [
         'React.js',
@@ -39,42 +39,38 @@ const Experience = () => {
       url: 'https://primeitek.com/'
     },
     {
-      company: 'SpaceID',
+      company: 'Hy.ly',
       position: 'Full Stack Engineer',
       period: '04/2016 — 02/2020',
       responsibilities: [
-        'Maintained and resolved issues on the Galaxy website utilizing Web3.js and ethers.js, ensuring blockchain interactions remained reliable.',
-        'Designed and developed the Space ID domain registration website from scratch, allowing users to register domains on the BNB Smart Chain network.',
-        'Integrated front-end with blockchain systems using Web3, including smart contract development, testing on testnets, and deployment to mainnet.',
-        'Built and optimized the main company website using Next.js, improving performance, SEO, and responsiveness across devices.',
-        'Contributed to web interfaces for user wallet management, improving functionality and user experience.',
-        'Fixed issues and maintained the staking website, ensuring secure and uninterrupted staking operations for users.'
+        'Developed a drag-and-drop email marketing platform using React.js and Material UI, enabling customers to design campaigns through an intuitive visual interface.',
+        'Diagnosed and fixed platform issues across marketing services, improving stability, performance, and overall user experience.',
+        'Collaborated closely with Product Managers and team members to enhance product features and deliver seamless service updates.',
+        'Built and maintained full stack features for digital marketing tools, contributing to more efficient workflows and improved customer engagement.'
       ],
       technologies: [
-        'Web3.js',
-        'ethers.js',
+        'React.js',
+        'Material UI',
+        'Vue.js',
         'JavaScript',
         'TypeScript',
-        'React.js',
-        'Next.js',
         'Node.js',
         'Express.js',
-        'Smart Contracts',
-        'Blockchain Integration',
-        'Wallet Integration',
-        'BNB Smart Chain',
-        'Testnet Deployment',
-        'Mainnet Deployment',
         'REST APIs',
-        'SEO',
+        'API Integration',
+        'MySQL',
+        'MongoDB',
+        'HTML5',
+        'CSS3',
         'Responsive Design',
         'Performance Optimization',
         'Git',
         'Docker',
         'UI/UX',
+        'Agile',
         'Problem Solving'
       ],
-      url: 'https://space.id'
+      url: 'https://www.hy.ly/'
     },
   ];
 
