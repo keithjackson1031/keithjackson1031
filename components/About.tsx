@@ -25,8 +25,8 @@ const About = () => {
       <div className="max-w-[700px] w-full pt-8">
         <div className="space-y-8 text-[#8892b0] text-[18px] leading-[2]">
           <p>
-            Hello! My name is Romeo and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2019
+            Hello! My name is Keith and I enjoy creating things that live on
+            the internet. My interest in web development started back in 2013
             when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML
             & CSS!
