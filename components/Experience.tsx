@@ -12,7 +12,30 @@ const Experience = () => {
         'Collaborated closely with Product Managers and team members to enhance product features and deliver seamless service updates.',
         'Contributed to the design and development of scalable full stack solutions that supported business growth and improved operational efficiency.'
       ],
-      technologies: ['React.js', 'Material UI', 'Vue.js', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Git', 'Docker'],
+      technologies: [
+        'React.js',
+        'TypeScript',
+        'JavaScript',
+        'Next.js',
+        'Vue.js',
+        'Material UI',
+        'Tailwind CSS',
+        'HTML5',
+        'CSS3',
+        'Responsive Design',
+        'Node.js',
+        'Express.js',
+        'REST APIs',
+        'API Integration',
+        'MySQL',
+        'MongoDB',
+        'Git',
+        'Docker',
+        'Agile',
+        'Performance Optimization',
+        'Debugging',
+        'Cross-functional Collaboration'
+      ],
       url: 'https://primeitek.com/'
     },
     {
@@ -27,8 +50,31 @@ const Experience = () => {
         'Contributed to web interfaces for user wallet management, improving functionality and user experience.',
         'Fixed issues and maintained the staking website, ensuring secure and uninterrupted staking operations for users.'
       ],
-      technologies: ['Web3.js', 'ethers.js', 'Next.js', 'JavaScript', 'Node.js', 'Git', 'Docker', 'BNB Smart Chain'],
-      url: '#'
+      technologies: [
+        'Web3.js',
+        'ethers.js',
+        'JavaScript',
+        'TypeScript',
+        'React.js',
+        'Next.js',
+        'Node.js',
+        'Express.js',
+        'Smart Contracts',
+        'Blockchain Integration',
+        'Wallet Integration',
+        'BNB Smart Chain',
+        'Testnet Deployment',
+        'Mainnet Deployment',
+        'REST APIs',
+        'SEO',
+        'Responsive Design',
+        'Performance Optimization',
+        'Git',
+        'Docker',
+        'UI/UX',
+        'Problem Solving'
+      ],
+      url: 'https://space.id'
     },
   ];
 
