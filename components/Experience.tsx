@@ -1,19 +1,25 @@
 'use client';
 
-import { useState } from 'react';
-
 const Experience = () => {
-  const [activeTab, setActiveTab] = useState(0);
-
   const experiences = [
     {
       company: 'PrimeiTek',
       position: 'Senior Full Stack Engineer',
-      period: '07/2021 — Present',
+      period: '02/2020 — Present',
       responsibilities: [
         'Developed a drag-and-drop email marketing platform for customers using React.js and Material UI, enabling users to design campaigns with a visual interface.',
         'Diagnosed and fixed platform bugs across marketing services, ensuring improved stability, performance, and user experience.',
         'Collaborated closely with Product Managers and team members to enhance product features and deliver seamless service updates.',
+        'Contributed to the design and development of scalable full stack solutions that supported business growth and improved operational efficiency.'
+      ],
+      technologies: ['React.js', 'Material UI', 'Vue.js', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Git', 'Docker'],
+      url: 'https://primeitek.com/'
+    },
+    {
+      company: 'SpaceID',
+      position: 'Full Stack Engineer',
+      period: '04/2016 — 02/2020',
+      responsibilities: [
         'Maintained and resolved issues on the Galaxy website utilizing Web3.js and ethers.js, ensuring blockchain interactions remained reliable.',
         'Designed and developed the Space ID domain registration website from scratch, allowing users to register domains on the BNB Smart Chain network.',
         'Integrated front-end with blockchain systems using Web3, including smart contract development, testing on testnets, and deployment to mainnet.',
@@ -21,8 +27,8 @@ const Experience = () => {
         'Contributed to web interfaces for user wallet management, improving functionality and user experience.',
         'Fixed issues and maintained the staking website, ensuring secure and uninterrupted staking operations for users.'
       ],
-      technologies: ['React.js', 'Material UI', 'Vue.js', 'JavaScript', 'Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Git', 'Docker'],
-      url: 'https://primeitek.com/'
+      technologies: ['Web3.js', 'ethers.js', 'Next.js', 'JavaScript', 'Node.js', 'Git', 'Docker', 'BNB Smart Chain'],
+      url: '#'
     },
   ];
 
